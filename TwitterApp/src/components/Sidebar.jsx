@@ -15,9 +15,9 @@ import { BsThreeDots } from "react-icons/bs"
 export default function Sidebar() {
   return (
     <aside id="sidebar">
-      <div>
+      <header>
         <FaTwitter id='twitter-icon'/>
-      </div>
+      </header>
       <div id='sidebar-option-container'>
         <SidebarOption optionName="Home" OptionIcon={HiHome}/>
         <SidebarOption optionName="Explore" OptionIcon={MdExplore}/>

@@ -9,18 +9,31 @@
 }
 
 #sidebar-option-container{
-    margin: 50px 0px 0px 25px;
+    margin: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 25px;
 }
 
 #sidebar-option{
     display: flex; 
     align-items: center;
-    margin: 10px 0px;
+    padding: 10px 0px;
+    background-color: white;
+    border: 0px;
+    width: 215px;
+}
+
+#sidebar-option:hover{
+    background-color: #E1E8ED;
 }
 
 #sidebar-option:focus {
-    outline: 1px solid blue;
+    border-right: 4px #1DA1F2 solid;
 }
+
+#sidebar-option:focus #option-icon, #sidebar-option:focus span{
+    color: #1DA1F2;
+}
+
 
 #option-icon{
     color: #AAB8C2;

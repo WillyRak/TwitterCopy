@@ -4,9 +4,9 @@ import * as MaterialDesign from "react-icons/hi"
 
 export default function  SidebarOption({optionName, OptionIcon=<React.Fragment></React.Fragment>}) {
   return (
-    <div href="#" id='sidebar-option'>
+    <button href="#" id='sidebar-option' >
     <OptionIcon id='option-icon'/>    
-        <p style={{paddingLeft: 10}}>{optionName}</p>
-    </div>
+        <span style={{paddingLeft: 10}}>{optionName}</span>
+    </button>
   )
 }
