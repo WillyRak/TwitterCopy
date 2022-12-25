@@ -1,0 +1,44 @@
+#sidebar{
+    width: 240px
+}
+
+#twitter-icon{
+    color: #1DA1F2;
+    font-size: 35px;
+    margin: 20px 20px 20px 20px;
+}
+
+#sidebar-option-container{
+    margin: 50px 0px 0px 25px;
+}
+
+#sidebar-option{
+    display: flex; 
+    align-items: center;
+    margin: 10px 0px;
+}
+
+#sidebar-option:focus {
+    outline: 1px solid blue;
+}
+
+#option-icon{
+    color: #AAB8C2;
+    font-size: 25px;
+}
+
+#tweet-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tweet-button{
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #1DA1F2;
+    height: 45px;
+    width: 175px;
+    border: none;
+    color: white;
+}

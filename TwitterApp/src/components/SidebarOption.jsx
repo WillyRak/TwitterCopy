@@ -1,11 +1,11 @@
 import React from 'react'
-import { HiHome } from "react-icons/hi" 
+import * as MaterialDesign from "react-icons/hi"
 
 
-export default function  SidebarOption({optionName}) {
+export default function  SidebarOption({optionName, OptionIcon=<React.Fragment></React.Fragment>}) {
   return (
-    <div href="#" style={{display: "flex", alignItems: "center"}}>
-        <HiHome/>
+    <div href="#" id='sidebar-option'>
+    <OptionIcon id='option-icon'/>    
         <p style={{paddingLeft: 10}}>{optionName}</p>
     </div>
   )
