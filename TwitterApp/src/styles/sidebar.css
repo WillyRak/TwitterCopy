@@ -10,27 +10,27 @@
 
 #sidebar-option-container{
     margin: 50px 0px 0px 0px;
-    padding: 0px 0px 0px 25px;
 }
 
-#sidebar-option{
+
+#sidebar-option button{
     display: flex; 
     align-items: center;
-    padding: 10px 0px;
+    padding: 15px 0px 15px 20px;
     background-color: white;
     border: 0px;
-    width: 215px;
+    width: 240px;
 }
 
-#sidebar-option:hover{
+#sidebar-option button:hover{
     background-color: #E1E8ED;
 }
 
-#sidebar-option:focus {
-    border-right: 4px #1DA1F2 solid;
+#sidebar-option button:focus {
+    border-right: 2px #1DA1F2 solid;
 }
 
-#sidebar-option:focus #option-icon, #sidebar-option:focus span{
+#sidebar-option button:focus #option-icon, #sidebar-option button:focus span{
     color: #1DA1F2;
 }
 

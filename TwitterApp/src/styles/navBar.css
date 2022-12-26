@@ -1,4 +1,50 @@
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin: 0px 20px 0px 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#search-bar-container{
+    border-radius: 10px;
+    background-color: #E1E8ED;
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+#search-bar-container input {
+    border: none;
+    background-color: #E1E8ED;
+}
+
+#search-bar-container input:focus {
+    outline: none;
+    margin
+}
+
+#navbar-user{
+    display: flex;
+    margin: 10px;
+}
+
+#navbar-user img{
+    border-radius: 50%;
+    margin-left: 15px;
 }

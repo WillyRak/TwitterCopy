@@ -7,19 +7,25 @@ body {
   margin: 0px;
 }
 
+
 main {
   margin-left: 240px;
+  background-color: #E1E8ED;
+}
+
+main header {
+  background-color: white;
 }
 
 aside {
-  border: 1px gray solid;
+  border: 0px gray solid;
   margin: 0;
   padding: 0;
   position:fixed;
   height: 100vh;
 }
 
-.main-container{
+#main-container{
   display: grid;
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: repeat(2);
@@ -53,4 +59,12 @@ aside {
   grid-template-columns: 80px 80px 80px;
   grid-template-rows: 40px 40px;
 }
+
+#main-container > section{
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 

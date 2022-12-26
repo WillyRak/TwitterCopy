@@ -1,20 +1,20 @@
 import React from 'react'
 import { FiSearch } from "react-icons/fi" 
 import UserInfo from './UserInfo'
-import '../styles/navBar.css'
+import '../styles/navbar.css'
 
 export default function Navbar() {
   return (
     <nav>
         <ul>
             <li>
-                <a>About</a>
+                <a href="#">About</a>
             </li>
             <li>
-                <a>Help</a>
+                <a href="#">Help</a>
             </li>
         </ul>
-        <div>
+        <div id='search-bar-container'>
             <FiSearch/>
             <input placeholder='Search on Twitter'></input>
         </div>

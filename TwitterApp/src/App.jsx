@@ -21,7 +21,7 @@ function App() {
         <header>
           <Navbar/>
         </header>
-        <div className='main-container'>
+        <div id='main-container'>
           <UserCard userName="John Ramsey" userNickname="@john_ram"/>
           <FeedCard/>
           <TrendsCard/>

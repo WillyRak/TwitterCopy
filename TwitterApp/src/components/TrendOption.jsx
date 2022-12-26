@@ -3,10 +3,10 @@ import { MdKeyboardArrowDown } from "react-icons/md"
 
 export default function TrendOption({trendHashtag}) {
   return (
-    <div>
-        <p><strong>#{trendHashtag}</strong></p>
+    <div class="trend-option-container">
+        <span><strong>#{trendHashtag}</strong></span>
         <p>71.4k Tweets</p>
-        <MdKeyboardArrowDown/>
+        <MdKeyboardArrowDown class="arrow-icon"/>
     </div>
   )
 }
